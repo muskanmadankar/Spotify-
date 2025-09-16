@@ -1,0 +1,31 @@
+#container{
+    height: 500px;
+    width: 70%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 2px 2px 15px blue;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+    /* justify-content: flex-end; */
+    justify-content: flex-start;
+    /* flex-wrap: nowrap; */ 
+    /* flex-wrap: wrap;*/  /*   (along main aaxis ie. left to right for row ) and for column top to bottom */
+    flex-wrap: wrap-reverse;  /* (for row along cross axis (top to bottom) but it is reverse wrap then "bottom to top")  */
+}                             /* for column along cross axis (left to right) but it is reverse wrap then "right to left" */
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+/* so flex direction tells us element kaha se start hoga 
+and flex wrap tells us wrapping konsne diresction mai hogi ie. element grp konse direction mai flow hoga
+ie wrapping konse konsese start kregi box ke or first element konse corner mai place krenge */
+

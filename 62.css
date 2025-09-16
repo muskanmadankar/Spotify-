@@ -1,0 +1,42 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+
+}
+/* yaha abhi tino boxes are on same level 
+because by default z-index zero hota hai ie. auto hota hai 
+and iss condition mai css mai jis element ki property last mai defined hoti hoti 
+hai voh upr ke trf aata hai screen mai for eg . box two */
+
+/* but hm zindex ko change kr skte hai  */
+
+/* z-index will not applicable on element with position is static or default  */
+
+.one {
+    background-color: aqua;
+    /* z-index: 1;
+    z-index will not applicable on element with position is static or default */
+ } 
+ 
+ /* z-index will applicable only for element with position is relative , absolute , etc */ 
+.two {
+   background-color: palevioletred;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.four{
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    z-index: 7;
+}
+
+.five{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 20px;
+}

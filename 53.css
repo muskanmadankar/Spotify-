@@ -1,0 +1,16 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border:2px solid rgb(52, 141, 136);
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+}

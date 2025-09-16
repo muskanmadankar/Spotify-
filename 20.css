@@ -1,0 +1,37 @@
+/* h2{
+    display: inline;
+    background-color: plum;
+}
+
+span{
+    display: block;
+    background-color: palevioletred;
+}
+
+div {
+    background-color: purple;
+} */
+
+span {
+    /* background-color: pink; */
+     border: 2px solid black;
+     height: 100px;
+     width: 200px;
+     padding: 50px;
+     margin: 20px;
+}
+
+/* span is an inline element therefor we observe that
+inline element mai "width" and "height" apply nhi hoga
+and "padding" & "marginn" apply only left & right side not on top and bottom */
+
+/* but in div ie. block element mai we observe that inline element mai we observe that
+all width height padding marging will applicable */
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+
+}

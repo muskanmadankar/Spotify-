@@ -1,0 +1,38 @@
+#container {
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px 11px greenyellow;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    /*then flex-basis will work on width*/
+    /* flex-direction: column; */
+    /*then flex-basis will work on height*/
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#orange{
+    flex-grow: 1;
+    max-width: 370px;
+    /* by max-width  width may dec but it will never inc than max-width even we grow the container size */
+}
+
+/* flex-grow se element available space ke according grow krta hai with respect of main axis  */
+/* if there is extra space give flex-grow: 2; for two elements then dono elements equal space mai grow kregi  */
+
+#blue{
+    flex-grow: 0.2;
+    /* flex-grow: 0.5; */
+    min-width: 140px;
+    /* by min-width the width may inc but it will never dec than min-width even after reducing the page or container size  */
+}
+
+#container div{
+    height: 100px;
+    width: 50px;
+    font-size: 1.5em;
+}

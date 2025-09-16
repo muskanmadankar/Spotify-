@@ -1,0 +1,27 @@
+#box {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    /* margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 1em;
+    margin-left: 2em; */
+
+    /* margin shothand (clockwise)  */
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+/*  non-typographical prop like margin , padding ,etc are
+related to element itself font-size if there value is in em 
+but here fonr size is not given therefor margin and padding are realated to default font-size
+ie. 16px  */
+
+/* therefor here default font-size=16px 
+then margin-right: 1em; ie. 1*16=16px
+         margin-left: 2em; ie. 2*16=32px
+         padding: 1em; ie. 1*16=16px*/
+
+/* typological prop like font-size if they are given in em then font-size of element is 
+related to font-size of parent font-size */

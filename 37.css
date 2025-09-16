@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    transition: background-color 2s ease-in-out 0.5s;
+    transition: color 2s ease-in-out 0.5s;
+    
+}
+
+h1:hover{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: rgb(168, 244, 244);
+    margin: auto;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    
+    flex-direction: row;               /*  left to right */
+    /* flex-direction: row-reverse; */   /*right to left */
+    /* flex-direction: column;*/         /*top to bottom */
+    /* flex-direction: column-reverse; */  /* bottom to top */
+
+   /* justify-content */
+    justify-content: flex-start;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+
+ /*for flex- direction =row */
+/*in case justify content=flex-end : justify-content mai element align on that side in which they end 
+for in flex-direction: row;
+  the element arrange in direction of left to right but align to ending side ie. right side */
+
+/*justify-content mai element align on that side in which they start in case justify content=flex-start for in flex-direction: row;
+    the element arrange in direction of left to right but align to starting side ie. left side */
+
+    /*justify-content mai element align to center in case justify content=flex-center for in flex-direction: row;
+        the element arrange in direction of right to left but align to center */
+
+     
+}
+
+
+#container div{
+     height: 50px;
+    width: 60px; 
+   
+    text-align: center;
+    color: white;
+} 

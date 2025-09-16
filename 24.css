@@ -1,0 +1,16 @@
+section{
+    font-size: 30px;
+}
+
+/* div{
+    font-size: 2em;
+} */
+
+/* here snowball effect */
+/* to avoid this we use Rem  */
+
+div{
+    font-size: 4rem;
+}
+
+/* here rem se font-size related to root element ie section ke font size ke 4 rem ie forthable hogye  */

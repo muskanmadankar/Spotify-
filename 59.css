@@ -1,0 +1,49 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media(width:400px){
+    h1{background-color: pink;}
+}
+
+@media(width:500px){
+    div{
+        color: white;
+        background-color: black;
+    }
+}
+
+@media(width:500px){
+    h3{
+        background-color: blanchedalmond;
+        color: brown;
+    }
+
+    p{
+        text-decoration: line-through;
+    }
+}
+
+/* width=700px pe and width(700px)<width ie 700 se greater width pe bg=bluevoilate rhega  */
+@media(min-width:700px)
+/* if width=400px hota then background color bluevoilate hi hota pink hota hi nhi
+ because width=400px pe bg=pink hai and also bg=bluevoilate ab yaha preference ka rule lgega
+  ie. jo last mai aaya voh apply hoga */
+  {
+    h1{background-color: blueviolet;}
+}
+
+@media(max-width: 300px){
+    h1{background-color: aqua;}
+}
+/* width=300px pe nd width(300px)>width ie. 300px se smaller width pe bg=aqua rhega  */
+
+/* jb range mai prop apply krni ho for eg.100px-200px mai then we use  */
+@media(min-width:100px) and (max-width:200px){
+    h1{background-color: coral;}
+}
+
+@media(orientation:portrait){
+    h1{background-color: darkgreen;}
+}

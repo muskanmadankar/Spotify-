@@ -1,0 +1,33 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: rgb(165, 238, 238);
+    margin: 10px auto;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 10px blue;
+    display: flex; 
+    flex-direction: row;
+    /* flex-direction: row-reverse; (right to left) */
+    /* flex-direction: column; (top to bottom _) */
+    /* flex-direction: column-reverse; (bottom to top) */
+     /* default direction is row (left to right) */
+     /* display flex limits the all child elements to fit in parent container element without overflow  */
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    /* due to display flex div ki height and width ignore hojayegi and it will set according to flex property
+    in case of sum of height of all element > height of parent element or  
+    sum of width of all element>width of parent element */
+    height:100px;
+    width: 300px; 
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* but if sum of height of all element<= height of parent element or 
+sum of width of all element>= width of parent element then height and width remain same */

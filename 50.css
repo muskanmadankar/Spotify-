@@ -1,0 +1,33 @@
+#container {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px 11px greenyellow;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    
+}
+/* flex-shrink works only when elements overflow and  */
+/* also works only when we use display: flex; property  */
+/* display-flex se element overflow hone pe display flex element ki main size ko reduce krta hai to fit in container   */
+#orange{ 
+    flex-shrink: 1;
+    /* orange 1 se jyaada shrink nhi horaha bcoz of its big font size */
+}
+#vv{
+    flex-shrink: -8;
+    /* so shrink mai negative value se size inc hota hai
+    and positive value se size shrink hota hai */
+}
+#blue{
+    flex-shrink: 9;
+} 

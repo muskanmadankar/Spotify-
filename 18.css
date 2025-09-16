@@ -1,0 +1,99 @@
+div {
+    height: 200px;
+    width: 600px;
+    background-color: pink;
+
+    /* border */
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid;
+     */
+
+     /* shorthand border  */
+     border: 5px solid yellow;
+     
+     /* border-left-color: blue;
+     border-left-style: dashed;
+     border-left-width: 8px; */
+
+        /* shorthand border  */
+
+     border-left: 5px dashed blue;
+
+     /* margin-bottom: 50px; */
+
+     /* margin shorthand similar to padding shorthand */
+
+     /* margin: 20px; */
+     margin:  10px  20px 30px;
+     /* padding: 100px; */
+
+     
+
+    /* if height: ;= width: ; and border-radius: 50%; then circle formed */
+}
+
+h1{
+    /* border-style: dotted;
+    border-width: 4px;
+    border-color: darkgreen; */
+    
+        /* shorthand border  */
+    border: 4px dotted darkgreen;
+
+    border-radius: 4%;
+
+    /* margin: 0px; */
+}
+
+.tt {
+    border: 4px solid red;
+    border-radius: 20px;
+    /* border-radius: 5%; */
+
+    height: 100px ;
+    width: 800px;
+
+}
+
+.hi {
+    border: 3px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+  
+
+/* this is not working why??????
+.hi p{
+    border: 3px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
+
+h4 {
+    width: 600px;
+    height: 100px;
+    background-color: purple;
+    border: 5px double brown;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* button{
+
+    background-color: aqua;
+    border: 4px solid blue;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+} */
+
+/* padding shorthand */ 
+ button{
+    background-color: aqua;
+        border: 4px solid blue;
+        border-radius: 10px;
+        padding: 0px 25px 0px 25px
+}

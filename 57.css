@@ -1,0 +1,55 @@
+.div1{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: fontAnimation; */
+    animation-name: multipleProp;
+    /* animation-name: colorAnimation; */
+    /* animation-name: widthAnimation; */
+     animation-duration: 4s;  
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-iteration-count: 3; 
+        /* animation-iteration-count: ; use to define how any times animation run */
+   animation-direction: normal;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+
+    /* animation shorthand */
+    /* animation: fontAnimation 2s ease-in 0.5s 3 normal; */
+}
+
+@keyframes fontAnimation{
+    form{font-size:16px;}
+    to{font-size:30px;}
+}
+
+@keyframes colorAnimation{
+    from{background-color: darkgray;}
+    to{background-color: brown;}
+}
+
+@keyframes widthAnimation{
+    from{width: 10px;}
+    to{width: 600px;}
+}
+
+@keyframes multipleProp{
+    from{
+        width: 20px;
+        background-color: black;
+        border: 3px double yellowgreen;
+        font-size: 2px;
+        color: aqua;
+    }
+
+    to{
+        width: 400px;
+        background-color: rgb(86, 83, 83);
+        border: 3px solid peru;
+        font-size: 10px;
+        border-radius: 20px;
+        color: black;
+    }
+}

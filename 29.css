@@ -1,0 +1,58 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7469B6;
+    border: 2px solid black;
+    margin: 19px auto;
+}
+
+div:nth-last-of-type(2n){
+    background-color: #AD88C6;
+    /* transform: rotate(45deg);  */
+   
+}
+
+div:nth-of-type(3n){
+    background-color: #E1AFD1;
+}
+
+/* transform  */
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: rotate(-45deg);
+}
+
+#three{
+    transform:scale(0.5);
+}
+
+#four{
+    /* transform: scale(1,0.5); */
+    transform: scaleX(2);
+}
+
+#five{
+    /* transform: translate(100px , 50px); */
+    /* transform: translateX(50px); */
+    transform: translateY(-50px);
+}
+
+#six{
+    transform: skew(30deg);
+    /* transform: skew(-30deg); */
+    /* transform: skew(90deg); isse pt bnjayega */
+    /* transform: skew(-90deg);  */
+    transform: skewY(38deg);
+}
+
+#seven{
+    transform: rotate(45deg)translate(60px) skew(20deg);
+}

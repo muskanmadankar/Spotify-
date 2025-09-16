@@ -1,0 +1,17 @@
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+p:nth-of-type(odd){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+input:checked + label {
+    color: darkgreen;
+    font-weight: bold;
+}

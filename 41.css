@@ -1,0 +1,22 @@
+#container {
+    height: 500px;
+    width: 70%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 2px 2px 15px blue;
+    display: flex;
+    /* flex-direction: column-revrse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column-reverse;
+    flex-wrap: wrap-reverse; */
+    /* align-items: flex-end; along cross axis */
+
+}
+
+#container div {
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,26 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    /* to form circle the height and width must be same and border-radius: 50%; */
+
+    display: inline-block;
+
+    /* yaha display: inline-block; because if only display: inline; lete toh block element coverted into inline element
+    but as we know on inline element height,width prop are not applicable and also margin apply only on left-right side
+    not on top-bottom and also paddding properly done on left-right side bit top-bottom other element
+    ke content overlap hote hai so to overcome this means we use display: inline-block;
+    jiisse ki block converted into inline without loosing any properties */
+}
+
+ul{
+    display: inline;
+}
+
+/* li (list item) have their display property set to "list-item" by default which
+makes them bulleted list item.
+when this property is reset by you to "inline" then the bullet points also
+disappears. In a way , we oveeride the default settings with our css */

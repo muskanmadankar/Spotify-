@@ -1,0 +1,22 @@
+
+/* id selector and Descendant selector */
+/* #myID p{
+    color: green; 
+} */
+
+
+/* attribute selector and descendaant selector */
+
+/* div[id="myID"] p {
+    color: green;
+} */
+
+/* attribute selector and child combinator */
+div[id="myID"] > p {
+    color: green;
+}
+
+/* decendant selector and attribute selector */
+span p[id="hi"]{
+    color: hotpink;
+}
